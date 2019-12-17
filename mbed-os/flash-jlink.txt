@@ -1,0 +1,8 @@
+r
+r
+r
+loadfile ./BUILD/SAMR34_XPLAINED_PRO/GCC_ARM/mbed-os.bin
+go
+r
+go
+exit
