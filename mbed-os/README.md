@@ -79,6 +79,7 @@ The modules/boards below where tested and the application is proving functional 
 
 - `SAMR34_XPLAINED_PRO`, see [Using SAMR34 with ATECC608A-TNGLORA](../HW/samr34_xplained.md).
 - `SAML21J18A` (SAML21 Xplained Pro),see [Using SAML21 with ATECC608A-TNGLORA](../HW/saml21_xplained.md).
+- `XDOT_L151CC`, see [Using xdot with ATECC608A-TNGLORA](../HW/xdot.md)
 
 ## Compiling the application
 

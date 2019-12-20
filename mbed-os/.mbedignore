@@ -6,6 +6,7 @@ mbed-os/features/FEATURE_BLE/*
 mbed-os/features/FEATURE_BOOTLOADER/*
 mbed-os/features/lwipstack/*
 mbed-os/features/mbedtls/targets/TARGET_Atmel/*
+mbed-os/features/mbedtls/targets/TARGET_STM/*
 mbed-os/features/nanostack/*
 mbed-os/features/netsocket/*
 mbed-os/features/nfc/*
