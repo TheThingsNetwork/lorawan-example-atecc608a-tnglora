@@ -12,7 +12,7 @@ While SOIC and UDFN are not developer friendly in comparison to DIP, multiple op
 
 - [AT88CKSCKTUDFN-XPRO ](https://www.microchip.com/DevelopmentTools/ProductDetails/AT88CKSCKTUDFN-XPRO) is a recommended option.
 
-- Similar UDFN click boards can be found [here]([Secure UDFN Click](https://www.mikroe.com/secure-udfn-click)).
+- Similar UDFN click boards can be found [here](https://www.mikroe.com/secure-udfn-click).
 
 #### How to use?
 
