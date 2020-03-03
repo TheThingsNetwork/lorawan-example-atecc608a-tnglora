@@ -2,7 +2,7 @@
 
 The [MultiTech xDot® Micro Developer Kit](https://www.multitech.com/brands/micro-xdot-devkit) is another option for evaluating the ATECC608A-TNGLORA LoRaWAN applications.
  
-### Connections:
+## Connections
 
 - Connect [AT88CKSCKTUDFN-XPRO ](https://www.microchip.com/DevelopmentTools/ProductDetails/AT88CKSCKTUDFN-XPRO) to xdot via `J1` header (`GND` on J1-7 to xdot `GND`, `VDD` on J1-6 to xdot `3.3V`, `SCL` on J1-4 to xdot SCL `P20` and `SDA` on J1-3 to SDA `P19`).
 - To enable I2C, make DIP switches 1, 3 and 6 `ON` and 2,4,5,7,8 should be `OFF` as seen below.
@@ -13,7 +13,7 @@ The [MultiTech xDot® Micro Developer Kit](https://www.multitech.com/brands/micr
 ![xdot+UDFN socket connection](./images/xdot_ecc.png)
 
 
-### Flashing application:
+## Flashing Application
  
  There are multiple methods to flashing your application `.bin` on this board.
  

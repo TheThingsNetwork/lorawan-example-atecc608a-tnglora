@@ -2,7 +2,7 @@
 
 The [SAML21 Xplained Pro Evaluation Kit](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/ATSAML21-XPRO-B) is an ideal development board option for evaluating the ATECC608A-TNGLORA LoRaWAN applications.
 
-### Connections:
+## Connections
 
 - Connect [AT88CKSCKTUDFN-XPRO ](https://www.microchip.com/DevelopmentTools/ProductDetails/AT88CKSCKTUDFN-XPRO) to `EXT3` header as seen below.
 - To enable I2C, make DIP switches 1, 3 and 6 `ON` and 2,4,5,7,8 should be `OFF` as seen below.
@@ -12,7 +12,7 @@ The [SAML21 Xplained Pro Evaluation Kit](https://www.microchip.com/DevelopmentTo
 
 ![SAML21+UDFN socket connection](./images/saml21-ecc.jpg)
 
-### Flashing application:
+## Flashing Application
  
  There are multiple methods to flashing your application `.bin` or `.elf` on this board.
  

@@ -1,4 +1,4 @@
-# ATECC608A-TNGLORA interfacing
+# Interfacing ATECC608A-TNGLORA 
 
 The [ATECC608a-TNGLORA](https://www.microchip.com/wwwproducts/en/ATECC608A-TNGLORA) comes in two HW packages:
 
@@ -7,8 +7,8 @@ The [ATECC608a-TNGLORA](https://www.microchip.com/wwwproducts/en/ATECC608A-TNGLO
 
 While SOIC and UDFN are not developer friendly in comparison to DIP, multiple options exist that allow for interfacing the secure element easily.
 
-
-### UDFN:
+## HW Packages
+### UDFN
 
 - [AT88CKSCKTUDFN-XPRO ](https://www.microchip.com/DevelopmentTools/ProductDetails/AT88CKSCKTUDFN-XPRO) is a recommended option.
 
@@ -16,7 +16,7 @@ While SOIC and UDFN are not developer friendly in comparison to DIP, multiple op
 
 #### How to use?
 
-Extensive explanation can be found [here](https://github.com/MicrochipTech/cryptoauthlib/wiki/TTN-Getting-Started#software-packages-and-code-example).
+Extensive explanation can be found [here](https://github.com/MicrochipTech/cryptoauthlib/wiki/TTN-Getting-Started#secure-element---atecc608a-tnglora).
 
 
 - To enable I2C, make DIP switches 1, 3 and 6 `ON` and 2,4,5,7,8 should be `OFF` as seen below.
@@ -25,7 +25,7 @@ Extensive explanation can be found [here](https://github.com/MicrochipTech/crypt
  
 ![Seated secure element](./images/ecc_seated.png)
 
->Note: Make sure that the Secure Element is properly seated in the socket BEFORE you close the clam shell lid. The chip should be resting evenly in the center of the socket. It should not be tilted or misaligned. Closing the clam shell lid of the UDFN ZIF socket with the chip misaligned will cause the chip to get stuck in the socket and will become difficult to remove.
+>Note: Make sure that the Secure Element is properly seated in the socket BEFORE you close the clam shell lid. The chip should be resting evenly in the centre of the socket. It should not be tilted or misaligned. Closing the clam shell lid of the UDFN ZIF socket with the chip misaligned will cause the chip to get stuck in the socket and will become difficult to remove.
 
 - You can power the device and connect the I2C lines in several ways.
 	- Connect it directly using J100 XPRO EXT to an extension header on a supported board such as [SAMR34 Xplained Pro Evaluation Kit](https://www.microchip.com/DevelopmentTools/ProductDetails/dm320111#additional-summary), detailed connections can be seen [here](samr34_xplained.md).
@@ -34,9 +34,7 @@ Extensive explanation can be found [here](https://github.com/MicrochipTech/crypt
 - If the UDFN  click/socket is powered correctly, you should see the RED LED ON.
 
 
-#### SOIC
+### SOIC
 
 - [SOIC Socket Board](https://www.microchip.com/developmenttools/ProductDetails/at88ckscktsoic-xpro) is a viable option.
 - [SOIC to DIP](https://www.kiwi-electronics.nl/soic-naar-dip-adapter-8-pin).
-
-

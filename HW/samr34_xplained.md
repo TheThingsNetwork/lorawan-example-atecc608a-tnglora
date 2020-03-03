@@ -2,7 +2,7 @@
 
 The [SAMR34 Xplained Pro Evaluation Kit](https://www.microchip.com/DevelopmentTools/ProductDetails/dm320111#additional-summary) is an ideal development board option for evaluating the ATECC608A-TNGLORA LoRaWAN applications.
  
-### Connections:
+## Connections
 
 - Connect [AT88CKSCKTUDFN-XPRO ](https://www.microchip.com/DevelopmentTools/ProductDetails/AT88CKSCKTUDFN-XPRO) to `EXT3` header as seen below.
 - To enable I2C, make DIP switches 1, 3 and 6 `ON` and 2,4,5,7,8 should be `OFF` as seen below.
@@ -12,12 +12,12 @@ The [SAMR34 Xplained Pro Evaluation Kit](https://www.microchip.com/DevelopmentTo
 ![SAMR34+UDFN socket connection](./images/samr34-ecc.jpg)
 
 
-### Flashing application:
+## Flashing Application
  
  There are multiple methods to flashing your application `.bin` or `.elf` on this board.
  
  - Using internal debugger (EDBG)
- 	1. Follow the interactions [here](https://www.segger.com/products/debug-probes/j-link/models/other-j-links/j-link-edbg/).
+ 	1. Follow the instructions [here](https://www.segger.com/products/debug-probes/j-link/models/other-j-links/j-link-edbg/).
  	2. Flash the project by navigating to application path and running the command:
  	`$ JLinkExe -device ATSAML21J18 -if SWD -speed 4000 -autoconnect 1 -CommanderScript ./flash-jlink.txt`
  	
