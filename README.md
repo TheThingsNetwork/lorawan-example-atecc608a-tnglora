@@ -51,4 +51,4 @@ For users looking for the fastest and simplist way to experience ATECC608A-TNGLO
  
 6. Choose your preferred platform and follow the SW platform setup guide
 	- [Mbed OS](./mbed-os/README.md)
-	- LoRaMac-node
+	- [LoRaMac-node](./LoRaMac-node/README.md)
