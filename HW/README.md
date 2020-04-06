@@ -25,4 +25,5 @@ All the supported development boards have easy to use SW examples that make it f
 | [SAMR34 Xplained Pro Evaluation Kit](samr34_xplained.md)     | :heavy_check_mark: | :heavy_check_mark: |
 | [MultiTech xDot® Micro Developer Kit](xdot.md)               | :heavy_check_mark: |                    |
 | [SAM L21 Xplained Pro Evaluation Kit](saml21_xplained.md) | :heavy_check_mark:  | :heavy_check_mark: |
+| [B-L072Z-LRWAN1 Discovery Kit](disco-l072cz.md) | :heavy_check_mark: |                   |
 

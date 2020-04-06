@@ -1,4 +1,4 @@
-# ATECC608A-TNGLORA LoRaWAN example application for Arm Mbed OS 
+# ATECC608A-TNGLORA LoRaWAN example application for Arm Mbed OS
 
 This is an example application to show the use of a pre-provisioned secure element (ATECC608A-TNGLORA) in LoRaWAN OTAA join flow.
 
@@ -71,15 +71,16 @@ Set the LoRa Radio and pin names accordingly:
 "lora-pwr-amp-ctl":    "NC",
 "lora-tcxo":           "PXXX"
 ```
- 
+
 
 ## Module support
 
 The modules/boards below where tested and the application is proving functional with minimal configuration.
 
-- `SAMR34_XPLAINED_PRO`, see [Using SAMR34 with ATECC608A-TNGLORA](../HW/samr34_xplained.md).
-- `SAML21J18A` (SAML21 Xplained Pro),see [Using SAML21 with ATECC608A-TNGLORA](../HW/saml21_xplained.md).
+- `SAMR34_XPLAINED_PRO`, see [Using SAMR34 with ATECC608A-TNGLORA](../HW/samr34_xplained.md)
+- `SAML21J18A` (SAML21 Xplained Pro), see [Using SAML21 with ATECC608A-TNGLORA](../HW/saml21_xplained.md)
 - `XDOT_L151CC`, see [Using xdot with ATECC608A-TNGLORA](../HW/xdot.md)
+- `DISCO_L072CZ_LRWAN1`, see [Using B-L072Z-LRWAN1 with ATECC608A-TNGLORA](../HW/disco-l072cz.md)
 
 ## Compiling the application
 
@@ -97,6 +98,8 @@ Then, compile the application:
 $ mbed compile -m YOUR_TARGET -t GCC_ARM
 ```
 
+> With `DISCO_L072CZ_LRWAN1`, make sure to remove the RTOS to have enough runtime RAM, just add `mbed-os/rtos/*` as a new line in [.mbedignore](.mbedignore)
+
 ## Running the application
 
 You will need to flash the application binary found in `BUILD/YOUR_TARGET/GCC_ARM/mbed-os.bin` to your Mbed enabled target hardware.
@@ -109,13 +112,13 @@ Attach a serial console emulator of your choice (for example, PuTTY, Minicom or 
 You should see an output similar to this:
 
 ```
-Mbed OS LoRaWAN example for ATECC608A-TNGLoRa 
-         SE Serial Number:          01 23 5f cd a1 cc 07 2e 27 
-         SE Device EUI:             00 04 a3 10 00 1a a6 98 
-         SE Application/Join EUI:   70 b3 d5 7e d0 00 00 00 
+Mbed OS LoRaWAN example for ATECC608A-TNGLoRa
+         SE Serial Number:          01 23 5f cd a1 cc 07 2e 27
+         SE Device EUI:             00 04 a3 10 00 1a a6 98
+         SE Application/Join EUI:   70 b3 d5 7e d0 00 00 00
 [DBG ][LSTK]: Initializing MAC layer
-Mbed LoRaWANStack initialized 
-Adaptive data  rate (ADR) - Enabled 
+Mbed LoRaWANStack initialized
+Adaptive data  rate (ADR) - Enabled
 [DBG ][LSTK]: Initiating OTAA
 [DBG ][LSTK]: Sending Join Request ...
 [DBG ][LMAC]: Frame prepared to send at port 0
