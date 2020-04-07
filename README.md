@@ -10,7 +10,7 @@ In this repository we provide practical tutorials and examples of using the [ATE
 
 > [The Things Industries](https://www.thethingsindustries.com/technology) pre-configured cloud hosted already supports claiming ATECC608A-TNGLORA devices. Make sure you can follow this [guide](https://enterprise.thethingsstack.io/v3.5.3/guides/claim-atecc608a/)
 
-- Any microcontroller with a LoRa transceiver and I2C support 
+- Any microcontroller with a LoRa transceiver and I2C support
 
 > See [HW](./HW) for more details about interfacing the secure element and example boards/connections
 
@@ -31,7 +31,7 @@ It is also worth mentioning that [ATECC608A-TNGLORA](https://www.microchip.com/w
 ## Getting started
 We support multiple platforms, boards and device configurations.
 
-For experienced Embedded/LoRaWAN users we recommend diving in with your preferred microcontroller/platform as ATECC608A-TNGLORA can be interfaced to any microcontroller/development board and this repository can act as a reference point for new integrations (bare-metal or OS based). 
+For experienced Embedded/LoRaWAN users we recommend diving in with your preferred microcontroller/platform as ATECC608A-TNGLORA can be interfaced to any microcontroller/development board and this repository can act as a reference point for new integrations (bare-metal or OS based).
 
 For users looking for the fastest and simplist way to experience ATECC608A-TNGLORA, you can follow the steps below:
 
@@ -48,7 +48,8 @@ For users looking for the fastest and simplist way to experience ATECC608A-TNGLO
 5. Connect your UDFN click board to your board
 	- [SAMR34 Xplained Pro Evaluation Kit](./HW/samr34_xplained.md)
 	- [MultiTech xDot® Micro Developer Kit](./HW/xdot.md)
- 
+	- [B-L072Z-LRWAN1 Discovery Kit](./HW/disco-l072cz.md)
+
 6. Choose your preferred platform and follow the SW platform setup guide
 	- [Mbed OS](./mbed-os/README.md)
 	- [LoRaMac-node](./LoRaMac-node/README.md)
