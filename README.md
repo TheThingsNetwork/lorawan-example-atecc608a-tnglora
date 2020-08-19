@@ -8,7 +8,7 @@ In this repository we provide practical tutorials and examples of using the [ATE
 
 - Any LoRaWAN Network Server that supports the LoRaWAN Backend Interfaces and is configured to use The Things Industries Join Server
 
-> [The Things Industries](https://www.thethingsindustries.com/technology) pre-configured cloud hosted already supports claiming ATECC608A-TNGLORA devices. Make sure you can follow this [guide](https://enterprise.thethingsstack.io/v3.5.3/guides/claim-atecc608a/)
+> [The Things Industries](https://www.thethingsindustries.com/technology) pre-configured cloud hosted already supports claiming ATECC608A-TNGLORA devices. Make sure you can follow this [guide](https://enterprise.thethingsstack.io/devices/claim-atecc608a/)
 
 - Any microcontroller with a LoRa transceiver and I2C support
 
