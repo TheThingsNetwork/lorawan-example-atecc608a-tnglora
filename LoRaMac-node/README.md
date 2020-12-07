@@ -32,7 +32,7 @@ All applications are supported, as by default, all applications join the network
 	- `$ git clone --branch develop --recurse-submodules https://github.com/Lora-net/LoRaMac-node.git`
 4. Set CMAKE building system flags (`cmake.configureSettings`) as seen below.
 	- `APPLICATION`:`LoRaMac`
-	- `SUB_PROJECT`:`classA`
+	- `SUB_PROJECT`:`periodic-uplink-lpp`
 	- `BOARD`:`SAMR34`
 	- `SECURE_ELEMENT`:`ATECC608A_TNGLORA_SE`
 5. Build and flash the application to your SAMR34 Xplained Pro Evaluation Kit.
